@@ -21,6 +21,16 @@
 
 
 module elevatorMain(
+input logic clk,
+input logic staff,
+input logic [4:0] levelInside,
+input logic call,
+input logic [4:0] levelOutside,
+input logic open,
+input logic close,
+input logic emergency,
+
+output [7:0] floorNumber
 
     );
 endmodule
